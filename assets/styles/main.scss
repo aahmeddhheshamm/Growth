@@ -1,0 +1,133 @@
+@import "./_taillwind.scss";
+@import "./_primevue.scss";
+@import "./_fonts.scss";
+@layer base {
+  h1 {
+    @apply text-8xl;
+  }
+
+  h2 {
+    @apply text-6xl	;
+  }
+
+  h3 {
+    @apply text-4xl;
+  }
+
+  h4 {
+    @apply text-3xl;
+  }
+
+  h5 {
+    @apply text-xl;
+  }
+
+  h6 {
+    @apply text-lg;
+  }
+
+
+}
+
+:root {
+//--font-family: "Alexandria" !important;
+  font-weight: 400 !important;
+}
+
+body {
+  background-color: #000000;
+  overflow-x: hidden;
+  //font-family: 'Alexandria' !important;
+}
+p{
+  white-space: pre-line !important;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  width: 50px !important;
+  height: 50px !important;
+}
+.swiper-pagination-bullet {
+  background-color: #ffffff !important;
+}.swiper-pagination-bullet-active {
+   background-color: #3023AE !important;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.loading-spinner {
+  animation: spinner .5s infinite linear;
+}
+
+[dir='ltr'] .main-footer-list li{
+  padding-left: 20px;
+}
+[dir='ltr'] .main-footer-list li::before {
+  left: 0
+}
+
+.main-footer-list li {
+  color: #fff;
+  position: relative;
+  padding-right: 20px;
+}
+.main-footer-list li a:hover {
+  transition: all 0.5s;
+  margin-right: 3px;
+  color: theme("colors.primary.200") !important;
+}
+.main-footer-list li::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: 'prev';
+  //margin-left: 77px !important;
+  color: theme("colors.primary.300") !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: 'next';
+  //margin-right: 77px !important;
+  color: theme("colors.primary.300") !important;
+}
+@media (max-width: 480px) {
+  html[dir='rtl'] .Toastify__toast-container{
+    right:0;
+    left:auto;
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #ffffff; /* or add it to the track */
+}
+
+/* Add a thumb */
+::-webkit-scrollbar-thumb {
+  background: theme("colors.primary.300") !important ;
+}
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

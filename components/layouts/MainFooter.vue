@@ -1,0 +1,73 @@
+<script setup>
+import SubTitle from "~/components/shared/SubTitle.vue";
+
+</script>
+
+<template>
+  <div class="bg-primary-100 text-white md:ps-[94px] ps-[64px] md:pe-[44px] pe-[24px] md:mb-[170px] mb-[64px] flex items-center justify-between flex-wrap overflow-hidden">
+    <div class="flex flex-col gap-[15px] ">
+      <p class="text-primary-200 font-semibold md:text-[28px] text-[22px]">GROWTH TEAM</p>
+      <p class="text-primary-200 md:text-[14px] text-[12px] font-medium w-[194px]">
+        Empowering Your E-Commerce Growth with Expert Precision.
+      </p>
+      <div class="flex items-center gap-[12px] md:mt-[45px] mt-[32px]">
+        <nuxt-link  target="_blank">
+          <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="social--icon">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.36 1.73969C17.6715 2.04897 16.9447 2.24227 16.1798 2.35825C16.9447 1.89433 17.5568 1.15979 17.8245 0.270619C17.0978 0.695876 16.2945 1.00515 15.4148 1.19845C14.7263 0.463918 13.7318 0 12.6608 0C10.5953 0 8.91225 1.70103 8.91225 3.78866C8.91225 4.09794 8.9505 4.36856 9.027 4.63918C5.92875 4.48454 3.1365 2.9768 1.26225 0.657216C0.95625 1.23711 0.765 1.85567 0.765 2.55155C0.765 3.86598 1.41525 5.02577 2.448 5.72165C1.836 5.68299 1.26225 5.52835 0.72675 5.25773V5.29639C0.72675 7.15206 2.02725 8.69845 3.7485 9.04639C3.4425 9.12371 3.09825 9.16237 2.754 9.16237C2.5245 9.16237 2.25675 9.12371 2.02725 9.08505C2.5245 10.5928 3.9015 11.7139 5.54625 11.7139C4.24575 12.7191 2.63925 13.3376 0.87975 13.3376C0.57375 13.3376 0.26775 13.3376 0 13.299C1.683 14.3814 3.63375 15 5.77575 15C12.699 15 16.4858 9.20103 16.4858 4.17526C16.4858 4.02062 16.4858 3.82732 16.4858 3.67268C17.2125 3.1701 17.8628 2.51289 18.36 1.73969Z" fill="#68D585"/>
+          </svg>
+        </nuxt-link>
+        <nuxt-link target="_blank">
+          <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="social--icon">
+            <path d="M18.91 0H1.09C0.642648 0 0.279999 0.335786 0.279999 0.75V17.25C0.279999 17.6642 0.642648 18 1.09 18H10.6635V11.0295H8.13011V8.3129H10.6635V6.30952C10.6635 3.9846 12.1971 2.71865 14.437 2.71865C15.5099 2.71865 16.4321 2.79261 16.7008 2.82567V5.25534L15.1473 5.25599C13.9291 5.25599 13.6932 5.79198 13.6932 6.5785V8.3129H16.5985L16.2202 11.0295H13.6932V18H18.91C19.3573 18 19.72 17.6642 19.72 17.25V0.75C19.72 0.335786 19.3573 0 18.91 0Z" fill="#7D818D"/>
+          </svg>
+        </nuxt-link>
+        <nuxt-link target="_blank">
+          <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="social--icon">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.27252 0.054C7.30932 0.0105 7.64021 0 10.28 0C12.9198 0 13.2507 0.0105 14.2875 0.054C15.8678 0.12075 17.2549 0.47925 18.3687 1.5105C19.4828 2.54212 19.8696 3.82687 19.9417 5.28937C19.9887 6.24937 20 6.55575 20 9C20 11.4443 19.9887 11.7506 19.9417 12.7106C19.8696 14.1739 19.4824 15.4583 18.3687 16.4895C17.2545 17.5211 15.8666 17.8792 14.2875 17.946C13.2507 17.9895 12.9198 18 10.28 18C7.64021 18 7.30932 17.9895 6.27252 17.946C4.69221 17.8792 3.30509 17.5208 2.19134 16.4895C1.07718 15.4579 0.690408 14.1731 0.618318 12.7106C0.571338 11.7506 0.559998 11.4443 0.559998 9C0.559998 6.55575 0.571338 6.24937 0.618318 5.28937C0.690408 3.82612 1.07759 2.54175 2.19134 1.5105C3.30549 0.478875 4.69302 0.12075 6.27252 0.054ZM14.2077 1.67401C13.1826 1.63051 12.8752 1.62151 10.28 1.62151C7.68476 1.62151 7.37736 1.63088 6.35231 1.67401C5.24625 1.72088 4.21958 1.92601 3.42983 2.65725C2.64008 3.3885 2.41854 4.33913 2.36792 5.36325C2.32094 6.31238 2.31122 6.597 2.31122 9C2.31122 11.403 2.32134 11.6876 2.36792 12.6367C2.41854 13.6609 2.64008 14.6115 3.42983 15.3427C4.21958 16.074 5.24625 16.2791 6.35231 16.326C7.37696 16.3695 7.68435 16.3785 10.28 16.3785C12.8756 16.3785 13.183 16.3691 14.2077 16.326C15.3137 16.2791 16.3404 16.074 17.1302 15.3427C17.9199 14.6115 18.1415 13.6609 18.1921 12.6367C18.2391 11.6876 18.2488 11.403 18.2488 9C18.2488 6.597 18.2387 6.31238 18.1921 5.36325C18.1415 4.33913 17.9199 3.3885 17.1302 2.65725C16.3404 1.92601 15.3137 1.72088 14.2077 1.67401Z" fill="#7D818D"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.86182 9.40918C5.86182 6.92403 8.03746 4.90918 10.7218 4.90918C13.4062 4.90918 15.5818 6.92366 15.5818 9.40918C15.5818 11.8947 13.4062 13.9092 10.7218 13.9092C8.03746 13.9092 5.86182 11.8943 5.86182 9.40918ZM7.56699 9.40918C7.56699 11.0224 8.97956 12.3303 10.7218 12.3303C12.4641 12.3303 13.8766 11.0224 13.8766 9.40918C13.8766 7.79599 12.4641 6.48805 10.7218 6.48805C8.97956 6.48805 7.56699 7.79599 7.56699 9.40918Z" fill="#7D818D"/>
+            <ellipse cx="15.14" cy="4.50023" rx="1.32545" ry="1.22728" fill="#7D818D"/>
+          </svg>
+        </nuxt-link>
+        <nuxt-link target="_blank" >
+            <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="social--icon">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M1.73001 0H19.55C19.9955 0 20.36 0.3375 20.36 0.75V17.25C20.36 17.6625 19.9955 18 19.55 18H1.73001C1.28451 18 0.920013 17.6625 0.920013 17.25V0.75C0.920013 0.3375 1.28451 0 1.73001 0ZM3.7955 15.3375H6.67101V6.75H3.7955V15.3375ZM5.2535 5.58749C4.322 5.58749 3.593 4.91249 3.593 4.05C3.593 3.1875 4.322 2.5125 5.2535 2.5125C6.185 2.5125 6.914 3.1875 6.914 4.05C6.914 4.87499 6.185 5.58749 5.2535 5.58749ZM14.609 15.3375H17.444V10.6125C17.444 8.28749 16.9175 6.52499 14.0015 6.52499C12.6245 6.52499 11.6525 7.23749 11.288 7.91249H11.2475V6.74999H8.4935V15.3375H11.369V11.1C11.369 9.97499 11.612 8.88749 13.1105 8.88749C14.609 8.88749 14.609 10.1625 14.609 11.175V15.3375Z" fill="#7D818D"/>
+            </svg>
+
+        </nuxt-link>
+      </div>
+    </div>
+    <div class="flex flex-col gap-[8px]">
+      <p class="text-primary-200 md:text-[15px] text-[12px] font-medium">Services</p>
+      <div class="flex flex-col gap-[12px]">
+        <p class="text-primary-200 md:text-[17px] text-[14px] font-medium">Data analysis</p>
+        <p class="text-primary-200 md:text-[17px] text-[14px] font-medium">User experience</p>
+        <p class="text-primary-200 md:text-[17px] text-[14px] font-medium">programming</p>
+        <p class="text-primary-200 md:text-[17px] text-[14px] font-medium">Digital marketing</p>
+        <p class="text-primary-200 md:text-[17px] text-[14px] font-medium">Data entry</p>
+        <p class="text-primary-200 md:text-[17px] text-[14px] font-medium">Graphic Design</p>
+        <p class="text-primary-200 md:text-[17px] text-[14px] font-medium">Writing content</p>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-900 pt-[25px] pb-[30px] px-5 md:px-0 text-center flex items-center mx-auto w-full justify-center gap-1">
+    <sub-title title="footerTitle" class="!text-white" >
+      <template #anotherSubTitle>
+        <span  class="!text-primary-200 text-[16px] font-normal leading-[24px]" > Ahmed Hesham</span>
+      </template>
+    </sub-title>
+  </div>
+</template>
+
+<style>
+.social--icon path{
+  fill: #7D818D!important
+}
+.social--icon:hover path{
+  fill: #68D585!important;
+}
+.social--icon:hover rect{
+  fill: #68D585!important;
+}
+
+</style>
+
