@@ -45,6 +45,12 @@ import {Pagination} from "swiper/modules";
     <LazyHomeBannerSection />
 
     <LazyHomeAboutSection />
+
+    <div class="mt-[210px] mb-[300px]">
+      <div class="flex justify-center items-center overflow-hidden">
+        <img style="width: 30%" src="@/assets/images/circles.png" class="lazy img-fluid" alt="Circles">
+      </div>
+    </div>
   </div>
 
 </template>

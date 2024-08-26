@@ -30,14 +30,14 @@
 }
 
 :root {
-//--font-family: "Alexandria" !important;
+--font-family: "Glory" !important;
   font-weight: 400 !important;
 }
 
 body {
   background-color: #000000;
   overflow-x: hidden;
-  //font-family: 'Alexandria' !important;
+  font-family: 'Glory' !important;
 }
 p{
   white-space: pre-line !important;
@@ -46,6 +46,13 @@ input[type='number'] {
   -moz-appearance: textfield;
 }
 
+.swiper{
+  overflow: visible !important;
+}
+.swiper .swiper-pagination{
+  bottom: -100px !important;
+  z-index: 99 !important;
+}
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   width: 50px !important;
@@ -53,9 +60,12 @@ input[type='number'] {
 }
 .swiper-pagination-bullet {
   background-color: #ffffff !important;
+  opacity: 1 !important;
 }.swiper-pagination-bullet-active {
-   background-color: #3023AE !important;
-}
+   background-color: #1F1772 !important;
+   opacity: 1 !important;
+
+ }
 .v-enter-active,
 .v-leave-active {
   transition: opacity 0.5s ease;

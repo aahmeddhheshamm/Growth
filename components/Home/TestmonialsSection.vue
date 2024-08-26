@@ -3,9 +3,9 @@ import {Pagination} from "swiper/modules";
 </script>
 
 <template>
-  <div class="md:mb-[113px] mb-[76px]">
+  <div class="md:mb-[163px] mb-[96px]">
     <div class="">
-      <div class="flex flex-col md:mb-[113px] mb-[64px] md:gap-[21px] gap-[14px]">
+      <div class="flex flex-col md:mb-[96px] mb-[48px] md:gap-[21px] gap-[14px]">
         <p class="text-center text-primary-200 font-semibold md:text-[48px] text-[28px]">What our clients say about us</p>
       </div>
     </div>
