@@ -7,13 +7,13 @@ import {Pagination} from "swiper/modules";
 <template>
   <div class="mb-[71px] mt-[15px]">
     <div class="container mt-[70px] mb-[66px]">
-      <h1 class="text-center text-primary-200 font-semibold">GrowthTeam</h1>
-      <p class="text-center text-primary-200 text-[24px] font-semibold">Your Partner in Building a Thriving Online Presence</p>
+      <h1 class="text-center text-primary-200 font-semibold">We Are Growth Team</h1>
+      <p class="text-center text-primary-400 text-[24px] font-semibold">Your Partner in Building a Thriving Online Presence</p>
     </div>
-    <div class="grid md:grid-cols-2 grid-cols-1 md:gap-[124px] gap-[82px] mb-[28px]">
-      <div class="md:ps-[82px] flex flex-col md:gap-[59px] gap-[42px]">
-        <h1 class="text-center text-primary-200 font-semibold w-[520px]">Lets Grow Together</h1>
-        <p class="md:mx-0 mx-[24px] text-primary-200 text-[19px] font-semibold">
+    <div class="grid md:grid-cols-2 grid-cols-1 md:gap-[124px] gap-[50px] mb-[28px]">
+      <div class="md:ps-[82px] flex flex-col md:gap-[59px] gap-[32px]">
+        <h1 class=" text-primary-200 font-semibold md:w-[520px] md-text-[94px] text-[32px] md:mx-0 mx-[15px]">Lets Grow Together</h1>
+        <p class="md:mx-0 mx-[15px] text-primary-400 text-[19px] font-semibold">
           Welcome to “Growth Team”, where your business vision transforms into thriving reality. We are a specialized e-commerce team, dedicated to leveraging our deep expertise and advanced strategies to help companies achieve unprecedented growth in their sales. Our goal is to multiply your successes through innovative solutions tailored specifically to meet the needs of your target market. Let us be your partners in leading the journey toward digital excellence and expansion.
         </p>
       </div>
@@ -44,9 +44,11 @@ import {Pagination} from "swiper/modules";
 
     <LazyHomeBannerSection />
 
+    <LazyHomeOuServiceSection />
+
     <LazyHomeAboutSection />
 
-    <div class="mt-[210px] mb-[300px]">
+    <div class="md:mt-[210px] mt-[120px] md:mb-[300px] mb-[120px]">
       <div class="flex justify-center items-center overflow-hidden">
         <img style="width: 30%" src="@/assets/images/circles.png" class="lazy img-fluid" alt="Circles">
       </div>
