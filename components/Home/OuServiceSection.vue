@@ -3,7 +3,7 @@ import {Pagination} from "swiper/modules";
 </script>
 
 <template>
-  <div class="md:mb-[350px] mb-[180px]">
+  <div class="md:mb-[350px] mb-[180px] md:mx-[65px] mx-[32px]">
     <div class="">
       <div class="flex flex-col md:mb-[101px] mb-[64px] md:gap-[21px] gap-[14px]">
         <p class="text-center text-primary-200 font-semibold md:text-[48px] text-[26px]">Our Services</p>
@@ -11,7 +11,7 @@ import {Pagination} from "swiper/modules";
     </div>
     <swiper
         :slides-per-view="3"
-        :space-between="15"
+        :space-between="30"
         :pagination="{
               clickable: true,
           }"
@@ -41,37 +41,37 @@ import {Pagination} from "swiper/modules";
         class="mySwiper"
     >
       <swiper-slide>
-        <div class="h-[550px] rounded-[40px] overflow-hidden">
+        <div class="h-[550px] rounded-[40px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/services/analysis.png" alt="Business Analysis" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="h-[550px] rounded-[40px] overflow-hidden">
+        <div class="h-[550px] rounded-[40px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/services/uiux.png" alt="UI/UX" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="h-[550px] rounded-[40px] overflow-hidden">
+        <div class="h-[550px] rounded-[40px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/services/development.png" alt="Development" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="h-[550px] rounded-[40px] overflow-hidden">
+        <div class="h-[550px] rounded-[40px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/services/seo.png" alt="Seo" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="h-[550px] rounded-[40px] overflow-hidden">
+        <div class="h-[550px] rounded-[40px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/services/marketing.png" alt="Marketing" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="h-[550px] rounded-[40px] overflow-hidden">
+        <div class="h-[550px] rounded-[40px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/services/graphic.png" alt="Graphic Design" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="h-[550px] rounded-[40px] overflow-hidden">
+        <div class="h-[550px] rounded-[40px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/services/photography.png" alt="Photography" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>

@@ -3,7 +3,7 @@ import {Pagination} from "swiper/modules";
 </script>
 
 <template>
-  <div class="md:mb-[250px] mb-[150px]">
+  <div class="md:mb-[250px] mb-[150px] md:mx-[65px] mx-[32px]">
     <div class="">
       <div class="flex flex-col md:mb-[101px] mb-[64px] md:gap-[18px] gap-[12px]">
         <p class="text-center text-primary-200 font-semibold md:text-[48px] text-[26px]">Our Portfolio</p>
@@ -12,7 +12,7 @@ import {Pagination} from "swiper/modules";
     </div>
     <swiper
         :slides-per-view="3"
-        :space-between="15"
+        :space-between="30"
         :pagination="{
               clickable: true,
           }"
@@ -42,22 +42,22 @@ import {Pagination} from "swiper/modules";
         class="mySwiper"
     >
       <swiper-slide>
-        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden">
+        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/swiper1.png" alt="Toyz" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden">
+        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/swiper2.png" alt="Sheyaka" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden">
+        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/swiper3.png" alt="Palta" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden">
+        <div class="md:h-[600px] h-[350px] rounded-[20px] overflow-hidden mx-[10px]">
           <img class="w-full h-full object-cover" src="@/assets/images/swiper4.png" alt="AlGouf" onerror="this.src='/default-cover.png'">
         </div>
       </swiper-slide>

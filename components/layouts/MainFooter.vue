@@ -4,23 +4,23 @@ import SubTitle from "~/components/shared/SubTitle.vue";
 </script>
 
 <template>
-  <div class="bg-primary-100 text-white md:ps-[94px] ps-[64px] md:pe-[44px] pe-[24px] md:mb-[150px] mb-[64px] flex items-center justify-between flex-wrap overflow-hidden">
-    <div class="flex flex-col gap-[12px] ">
+  <div class="bg-primary-100 text-white md:mx-[65px] mx-[32px] md:mb-[150px] mb-[64px] flex flex-col gap-[12px]  flex-wrap">
+
       <p class="text-primary-200 font-bold md:text-[28px] text-[22px]">GROWTH TEAM</p>
       <p class="text-primary-200 md:text-[24px] text-[12px] font-medium w-[324px]">
         Empowering Your E-Commerce Growth with Expert Precision.
       </p>
 
-      <p class="text-primary-200 font-bold md:text-[28px] text-[22px]">CONNECT  US</p>
+      <p class="text-primary-200 font-bold md:text-[28px] text-[22px]">CONTACT  US</p>
       <div class="flex items-center gap-[12px] text-primary-200 font-semibold md:text-[24px] text-[18px]">
         <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M18.75 0H0.75C0.551088 0 0.360322 0.0790178 0.21967 0.21967C0.0790176 0.360322 0 0.551088 0 0.75V13.5C0 13.8978 0.158035 14.2794 0.43934 14.5607C0.720644 14.842 1.10218 15 1.5 15H18C18.3978 15 18.7794 14.842 19.0607 14.5607C19.342 14.2794 19.5 13.8978 19.5 13.5V0.75C19.5 0.551088 19.421 0.360322 19.2803 0.21967C19.1397 0.0790178 18.9489 0 18.75 0ZM18 13.5H1.5V2.45531L9.24281 9.55312C9.38118 9.68014 9.56217 9.75062 9.75 9.75062C9.93783 9.75062 10.1188 9.68014 10.2572 9.55312L18 2.45531V13.5Z" fill="white"/>
         </svg>
         OUR EMAIL
       </div>
-      <p class="text-primary-200 md:text-[24px] text-[12px] font-medium">amgad_hesham@outlook.com</p>
+      <p class="text-primary-200 md:text-[24px] text-[12px] font-medium">growthteamhub@gmail.com</p>
 
-      <div class="flex items-center gap-[12px] md:mt-[28px] mt-[18px] cursor-pointer">
+      <div class="flex items-center justify-center gap-[12px] md:mt-[28px] mt-[18px] cursor-pointer">
         <nuxt-link  target="_blank">
           <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="social--icon">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18.36 1.73969C17.6715 2.04897 16.9447 2.24227 16.1798 2.35825C16.9447 1.89433 17.5568 1.15979 17.8245 0.270619C17.0978 0.695876 16.2945 1.00515 15.4148 1.19845C14.7263 0.463918 13.7318 0 12.6608 0C10.5953 0 8.91225 1.70103 8.91225 3.78866C8.91225 4.09794 8.9505 4.36856 9.027 4.63918C5.92875 4.48454 3.1365 2.9768 1.26225 0.657216C0.95625 1.23711 0.765 1.85567 0.765 2.55155C0.765 3.86598 1.41525 5.02577 2.448 5.72165C1.836 5.68299 1.26225 5.52835 0.72675 5.25773V5.29639C0.72675 7.15206 2.02725 8.69845 3.7485 9.04639C3.4425 9.12371 3.09825 9.16237 2.754 9.16237C2.5245 9.16237 2.25675 9.12371 2.02725 9.08505C2.5245 10.5928 3.9015 11.7139 5.54625 11.7139C4.24575 12.7191 2.63925 13.3376 0.87975 13.3376C0.57375 13.3376 0.26775 13.3376 0 13.299C1.683 14.3814 3.63375 15 5.77575 15C12.699 15 16.4858 9.20103 16.4858 4.17526C16.4858 4.02062 16.4858 3.82732 16.4858 3.67268C17.2125 3.1701 17.8628 2.51289 18.36 1.73969Z" fill="#68D585"/>
@@ -45,7 +45,6 @@ import SubTitle from "~/components/shared/SubTitle.vue";
 
         </nuxt-link>
       </div>
-    </div>
 
   </div>
 </template>
